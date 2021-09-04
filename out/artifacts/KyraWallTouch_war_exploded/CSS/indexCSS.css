@@ -1,0 +1,75 @@
+
+.container
+{
+    position: absolute;
+    background-color: gray;
+    padding: 10%;
+    height: 5px;
+    width: 31.5%;
+    opacity: 70%;
+    z-index: 2;
+    left: 25%;
+    top: 25%;
+    right: 50%;
+    bottom:50%;
+    border-radius: 10px;
+}
+
+#mapid {
+    position: absolute;
+    width: 99%;
+    height: 99%;
+    z-index: 1;
+}
+
+
+
+
+#storicoSegnalazione{
+    display: block;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: green;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 200%;
+    transition: background-color 0.5s;
+    opacity: 80%;
+
+
+    left: 25%;
+    top: 50%;
+    right: 50%;
+    bottom:30%;
+    width: 50%;
+    height: 10%;
+    z-index: 3;
+    position: absolute;
+
+}
+
+
+#nuovaSegnalazione
+{
+    display: block;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 200%;
+    transition: background-color 0.5s;
+    opacity: 80%;
+
+    left: 25%;
+    top: 30%;
+    right: 50%;
+    bottom:50%;
+    width: 50%;
+    z-index: 3;
+    position: absolute;
+}

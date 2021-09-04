@@ -1,0 +1,133 @@
+.panel {
+    position: absolute;
+    float: left;
+    background-color: gray;
+    opacity: 70%;
+    color: white;
+    width: 27%;
+    height: 100%;
+    z-index:2;
+    text-align: center;
+}
+
+
+
+#richiestaAgente
+{   position: absolute;
+    left:2%;
+    top:90%;
+    z-index: 4;
+
+    display: block;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 150%;
+    transition: background-color 0.5s;
+
+}
+
+#listaagenti
+{
+    position: absolute;
+    left:2%;
+    top:45%;
+    z-index: 4;
+}
+#agenteSelezionato
+{
+    position: absolute;
+    left:15%;
+    top:45%;
+    z-index: 4;
+}
+
+#veicoloButton
+{   position: absolute;
+    left:8%;
+    top:50%;
+    z-index: 4;
+
+    display: block;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 100%;
+    transition: background-color 0.5s;
+    opacity: 80%;
+}
+
+#agenteButton
+{   position: absolute;
+    left:2%;
+    top:50%;
+    z-index: 4;
+
+}
+
+
+.weather
+{
+    position: fixed;
+    float: left;
+    left: 1.1%;
+    top : 1%;
+    z-index:3;
+}
+
+.weather2
+{
+    position: fixed;
+    float: left;
+    top : 16%;
+    left: -2%;
+
+
+}
+
+#meteo2
+{
+    -webkit-transform:scale(0.8);
+-moz-transform-scale(0.8)
+}
+
+iframe
+{
+    pointer-events: none;
+
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#mapid {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.weatherwidget-io {
+    width: 370px;
+    position: fixed;
+}
+
+#warning
+{
+    color:red;
+}
+
+
